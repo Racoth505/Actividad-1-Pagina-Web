@@ -232,9 +232,12 @@ html, body {
 }
 
 .tabla-responsive-wrapper {
- width: 100%;
+ width: 95%;
+ max-width: 1000px;
  overflow-x: auto; /* Habilita el scroll horizontal si la tabla es más ancha que la pantalla */
  -webkit-overflow-scrolling: touch; /* Mejora el scroll en iOS */
+ margin-left: auto;
+ margin-right: auto;
 }
 
 .tabla-inventario {
