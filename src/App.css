@@ -233,7 +233,7 @@ html, body {
 
 .tabla-responsive-wrapper {
  width: 95%;
- max-width: 1200px;
+ max-width: 1000px;
  overflow-x: auto; /* Habilita el scroll horizontal si la tabla es más ancha que la pantalla */
  -webkit-overflow-scrolling: touch; /* Mejora el scroll en iOS */
  margin-left: auto;
@@ -361,8 +361,12 @@ html, body {
    SECCIÓN: AGREGAR
 ======================================================= */
 .agregar-container {
-  padding: 140px 40px 60px;
+  font-family: Arial, sans-serif;
+  padding: 90px 40px 60px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .titulo-agregar {
@@ -393,7 +397,7 @@ html, body {
 ======================================================= */
 .eliminar-container {
   font-family: Arial, sans-serif;
-  padding: 140px 40px 60px;
+  padding: 90px 40px 60px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -446,7 +450,7 @@ html, body {
 ======================================================= */
 .actualizar-container {
   font-family: Arial, sans-serif;
-  padding: 140px 40px 60px;
+  padding: 90px 40px 60px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -618,25 +622,6 @@ html, body {
   box-shadow: 0 2px 0 rgba(0,0,0,.25) inset;
   text-decoration: none;
 }
-/* Efecto de sombra y oscurecimiento en hover */
-.pv-card {
-  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
-}
-
-/* cuando pasas el cursor */
-.pv-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15); /* sombra suave */
-  filter: brightness(0.65); /* oscurece un poco el color */
-}
-
-/* al hacer click (se presiona ligeramente) */
-.pv-card:active {
-  transform: translateY(0);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  filter: brightness(0.9);
-}
-
 
 
 /* =======================================================
@@ -646,6 +631,18 @@ html, body {
   .titulo {
     font-size: 2.2rem;
     text-align: center;
+  }
+
+  .actualizar-container {
+    padding-top: 40px; 
+  }
+
+  .eliminar-container {
+    padding-top: 40px; 
+  }
+
+  .agregar-container {
+    padding-top: 40px; 
   }
 
   .navbar {
@@ -743,6 +740,7 @@ html, body {
 
   .pv-head, .pv-row {
     grid-template-columns: 80px 1fr 100px 100px; /* Reducir el ancho de las columnas */
-    font-size:0.85rem;
+    font-size: 0.85rem;
   }
+  
 }
