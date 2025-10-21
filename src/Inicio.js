@@ -35,9 +35,9 @@ function Inicio() {
 
     // Redirigir según el rol
     if (usuario.rol === "Vendedor") {
-      navigate("/inventarioVista");
+      navigate("/ventasVista");
     } else if (usuario.rol === "Administrador") {
-      navigate("/inventario");
+      navigate("/ventas");
     }
   };
 
