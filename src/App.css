@@ -361,8 +361,12 @@ html, body {
    SECCIÓN: AGREGAR
 ======================================================= */
 .agregar-container {
-  padding: 140px 40px 60px;
+  font-family: Arial, sans-serif;
+  padding: 90px 40px 60px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .titulo-agregar {
@@ -393,7 +397,7 @@ html, body {
 ======================================================= */
 .eliminar-container {
   font-family: Arial, sans-serif;
-  padding: 140px 40px 60px;
+  padding: 90px 40px 60px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -446,7 +450,7 @@ html, body {
 ======================================================= */
 .actualizar-container {
   font-family: Arial, sans-serif;
-  padding: 140px 40px 60px;
+  padding: 90px 40px 60px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -627,6 +631,18 @@ html, body {
   .titulo {
     font-size: 2.2rem;
     text-align: center;
+  }
+
+  .actualizar-container {
+    padding-top: 40px; 
+  }
+
+  .eliminar-container {
+    padding-top: 40px; 
+  }
+
+  .agregar-container {
+    padding-top: 40px; 
   }
 
   .navbar {
