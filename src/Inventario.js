@@ -101,7 +101,7 @@ function Inventario() {
                 <tr key={p.id}>
                   <td>{p.id}</td>
                   <td>{p.nombre}</td>
-                  <td>${p.precio}</td>
+                  <td>{p.precio}</td>
                   <td>{p.descripcion}</td>
                   <td>{p.categoria}</td>
                   <td>{p.unidad}</td>
