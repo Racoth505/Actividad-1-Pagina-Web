@@ -42,7 +42,7 @@ function InventarioVista() {
       <nav className="navbar">
         <h2 className="punto-venta">SupMis</h2>
         <div className="nav-botones">
-          <Link to="/ventas" className="btn">Ventas</Link>
+          <Link to="/ventasVista" className="btn">Ventas</Link>
         </div>
       </nav>
       <header className="inventario-header">
