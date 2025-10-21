@@ -35,7 +35,7 @@ function Inicio() {
 
     // Redirigir según el rol
     if (usuario.rol === "Vendedor") {
-      navigate("src/InventarioVista.js");
+      navigate("/inventarioVista");
     } else if (usuario.rol === "Administrador") {
       navigate("/inventario");
     }
