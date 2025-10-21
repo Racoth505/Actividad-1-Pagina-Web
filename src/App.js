@@ -4,6 +4,7 @@ import { InventarioProvider } from "./InventarioContext";
 import "./App.css";
 import Inventario from "./Inventario";
 import InventarioVista from "./InventarioVista";
+import VentasVista from "./VentasVista";
 import Agregar from "./Agregar";
 import Actualizar from "./Actualizar";
 import Eliminar from "./Eliminar";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/actualizar" element={<Actualizar />} />
           <Route path="/eliminar" element={<Eliminar />} />
           <Route path="/ventas" element={<Ventas />} />
+          <Route path="/ventasVista" element={<VentasVista />} />
         </Routes>
       </Router>
     </InventarioProvider>
