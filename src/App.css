@@ -233,7 +233,7 @@ html, body {
 
 .tabla-responsive-wrapper {
  width: 95%;
- max-width: 1000px;
+ max-width: 1200px;
  overflow-x: auto; /* Habilita el scroll horizontal si la tabla es más ancha que la pantalla */
  -webkit-overflow-scrolling: touch; /* Mejora el scroll en iOS */
  margin-left: auto;
@@ -743,6 +743,6 @@ html, body {
 
   .pv-head, .pv-row {
     grid-template-columns: 80px 1fr 100px 100px; /* Reducir el ancho de las columnas */
-    font-size: 0.85rem;
-  }
+    font-size:0.85rem;
+  }
 }
